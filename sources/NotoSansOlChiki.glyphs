@@ -1,23 +1,10 @@
 {
-.appVersion = "1349";
-copyright = "Copyright 2019 Google LLC. All Rights Reserved.";
+.appVersion = "3109";
+DisplayStrings = (
+"/uni1C71"
+);
+copyright = "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/ol-chiki)";
 customParameters = (
-{
-name = description;
-value = "Designed by Monotype design team.";
-},
-{
-name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.";
-},
-{
-name = licenseURL;
-value = "http://scripts.sil.org/OFL";
-},
-{
-name = vendorID;
-value = GOOG;
-},
 {
 name = unicodeRanges;
 value = (
@@ -27,16 +14,8 @@ value = (
 );
 },
 {
-name = trademark;
-value = "Noto is a trademark of Google Inc.";
-},
-{
 name = "Has WWS Names";
 value = 1;
-},
-{
-name = versionString;
-value = "Version 2.002";
 },
 {
 name = fsType;
@@ -47,6 +26,43 @@ value = (
 name = codePageRanges;
 value = (
 1252
+);
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = description;
+value = "Designed by Monotype design team.";
+},
+{
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+},
+{
+name = licenseURL;
+value = "https://scripts.sil.org/OFL";
+},
+{
+name = vendorID;
+value = GOOG;
+},
+{
+name = trademark;
+value = "Noto is a trademark of Google Inc.";
+},
+{
+name = versionString;
+value = "Version 2.003";
+},
+{
+name = Axes;
+value = (
+{
+Name = Weight;
+Tag = wght;
+}
 );
 }
 );
@@ -139,7 +155,6 @@ verticalStems = (
 88,
 68
 );
-visible = 1;
 weightValue = 90;
 xHeight = 536;
 },
@@ -221,7 +236,6 @@ verticalStems = (
 109,
 92
 );
-visible = 1;
 weightValue = 108;
 xHeight = 536;
 },
@@ -304,7 +318,6 @@ verticalStems = (
 132,
 119
 );
-visible = 1;
 weightValue = 128;
 xHeight = 536;
 },
@@ -373,7 +386,6 @@ verticalStems = (
 159,
 151
 );
-visible = 1;
 weight = Bold;
 weightValue = 151;
 xHeight = 536;
@@ -6914,9 +6926,46 @@ unicode = 1C67;
 },
 {
 glyphname = uni1C68;
-lastChange = "2019-10-15 17:35:40 +0000";
+lastChange = "2022-09-01 16:04:55 +0000";
 layers = (
 {
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"183 169 LINE",
+"133 169 LINE",
+"276 -10 LINE",
+"399 33 OFFCURVE",
+"493 148 OFFCURVE",
+"493 308 CURVE SMOOTH",
+"493 617 OFFCURVE",
+"203 712 OFFCURVE",
+"46 725 CURVE",
+"46 641 LINE",
+"246 615 OFFCURVE",
+"404 513 OFFCURVE",
+"404 303 CURVE SMOOTH",
+"404 225 OFFCURVE",
+"381 198 OFFCURVE",
+"377 188 CURVE",
+"406 165 LINE",
+"91 560 LINE",
+"40 515 LINE",
+"370 101 LINE",
+"361 159 LINE",
+"340 103 OFFCURVE",
+"278 78 OFFCURVE",
+"298 85 CURVE",
+"320 54 LINE",
+"158 257 LINE",
+"40 109 LINE",
+"40 -10 LINE"
+);
+}
+);
+};
 guideLines = (
 {
 angle = 270;
@@ -6949,9 +6998,9 @@ nodes = (
 "40 515 LINE",
 "370 101 LINE",
 "361 159 LINE",
-"340 103 OFFCURVE",
-"278 78 OFFCURVE",
-"298 85 CURVE",
+"347 118 OFFCURVE",
+"307 92 OFFCURVE",
+"292 83 CURVE",
 "320 54 LINE",
 "158 257 LINE",
 "40 109 LINE",
@@ -8950,10 +8999,10 @@ unicode = 1C70;
 },
 {
 glyphname = uni1C71;
-lastChange = "2019-10-15 17:35:40 +0000";
+lastChange = "2022-09-01 16:07:42 +0000";
 layers = (
 {
-layerId = UUID0;
+background = {
 paths = (
 {
 closed = 1;
@@ -9004,6 +9053,62 @@ nodes = (
 "200 642 LINE",
 "185 634 OFFCURVE",
 "214 650 OFFCURVE",
+"273 650 CURVE SMOOTH"
+);
+}
+);
+};
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"139 725 OFFCURVE",
+"71 658 OFFCURVE",
+"58 647 CURVE",
+"153 580 LINE",
+"121 643 LINE",
+"121 177 LINE",
+"143 250 LINE",
+"66 136 LINE",
+"90 97 OFFCURVE",
+"147 -10 OFFCURVE",
+"281 -10 CURVE SMOOTH",
+"415 -10 OFFCURVE",
+"484 129 OFFCURVE",
+"496 152 CURVE",
+"401 152 LINE",
+"395 139 OFFCURVE",
+"355 65 OFFCURVE",
+"281 65 CURVE SMOOTH",
+"217 65 OFFCURVE",
+"167 121 OFFCURVE",
+"156 154 CURVE",
+"142 104 LINE",
+"470 596 LINE",
+"416 593 LINE",
+"474 551 OFFCURVE",
+"491 482 OFFCURVE",
+"494 479 CURVE",
+"532 574 LINE",
+"485 653 OFFCURVE",
+"394 725 OFFCURVE",
+"273 725 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"336 650 OFFCURVE",
+"383 620 OFFCURVE",
+"398 608 CURVE",
+"409 649 LINE",
+"175 297 LINE",
+"197 290 LINE",
+"197 680 LINE",
+"191 636 LINE",
+"201 646 OFFCURVE",
+"252 650 OFFCURVE",
 "273 650 CURVE SMOOTH"
 );
 }
@@ -11806,12 +11911,6 @@ width = 600;
 );
 instances = (
 {
-customParameters = (
-{
-name = weightClass;
-value = 400;
-}
-);
 interpolationWeight = 90;
 instanceInterpolations = {
 UUID0 = 1;
@@ -11819,12 +11918,6 @@ UUID0 = 1;
 name = Regular;
 },
 {
-customParameters = (
-{
-name = weightClass;
-value = 500;
-}
-);
 interpolationWeight = 108;
 instanceInterpolations = {
 "6E1A9BF3-6A06-44F2-8E17-ACCB47751CD5" = 1;
@@ -11833,12 +11926,6 @@ name = Medium;
 weightClass = Medium;
 },
 {
-customParameters = (
-{
-name = weightClass;
-value = 600;
-}
-);
 interpolationWeight = 128;
 instanceInterpolations = {
 "38768EF3-7794-49DB-B097-CE6891208EBB" = 1;
@@ -11847,12 +11934,6 @@ name = SemiBold;
 weightClass = SemiBold;
 },
 {
-customParameters = (
-{
-name = weightClass;
-value = 700;
-}
-);
 interpolationWeight = 151;
 instanceInterpolations = {
 "9C387D97-1150-45A6-AF8D-2AAB62D95D5D" = 1;
@@ -11883,5 +11964,5 @@ OV = "88";
 };
 };
 versionMajor = 2;
-versionMinor = 2;
+versionMinor = 3;
 }
