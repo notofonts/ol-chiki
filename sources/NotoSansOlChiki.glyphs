@@ -1,7 +1,7 @@
 {
-.appVersion = "3109";
+.appVersion = "3225";
 DisplayStrings = (
-"/uni1C71"
+"/uni1C73"
 );
 copyright = "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/ol-chiki)";
 customParameters = (
@@ -45,12 +45,12 @@ name = licenseURL;
 value = "https://scripts.sil.org/OFL";
 },
 {
-name = vendorID;
-value = GOOG;
-},
-{
 name = trademark;
 value = "Noto is a trademark of Google Inc.";
+},
+{
+name = vendorID;
+value = GOOG;
 },
 {
 name = versionString;
@@ -9662,7 +9662,7 @@ unicode = 1C72;
 },
 {
 glyphname = uni1C73;
-lastChange = "2019-10-15 17:35:40 +0000";
+lastChange = "2023-11-23 13:10:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -9783,6 +9783,9 @@ nodes = (
 {
 closed = 1;
 nodes = (
+"406 296 OFFCURVE",
+"378 323 OFFCURVE",
+"378 357 CURVE SMOOTH",
 "378 391 OFFCURVE",
 "406 418 OFFCURVE",
 "440 418 CURVE SMOOTH",
@@ -9791,10 +9794,7 @@ nodes = (
 "502 357 CURVE SMOOTH",
 "502 323 OFFCURVE",
 "474 296 OFFCURVE",
-"440 296 CURVE SMOOTH",
-"406 296 OFFCURVE",
-"378 323 OFFCURVE",
-"378 357 CURVE SMOOTH"
+"440 296 CURVE SMOOTH"
 );
 }
 );
@@ -10000,18 +10000,18 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"374 294 OFFCURVE",
-"349 336 OFFCURVE",
-"359 375 CURVE SMOOTH",
-"369 414 OFFCURVE",
-"410 440 OFFCURVE",
-"450 430 CURVE SMOOTH",
-"489 420 OFFCURVE",
-"514 378 OFFCURVE",
-"504 339 CURVE SMOOTH",
-"494 300 OFFCURVE",
-"453 274 OFFCURVE",
-"413 284 CURVE SMOOTH"
+"388 282 OFFCURVE",
+"357 319 OFFCURVE",
+"357 358 CURVE SMOOTH",
+"357 399 OFFCURVE",
+"393 432 OFFCURVE",
+"433 432 CURVE SMOOTH",
+"475 432 OFFCURVE",
+"506 396 OFFCURVE",
+"506 357 CURVE SMOOTH",
+"506 315 OFFCURVE",
+"470 282 OFFCURVE",
+"430 282 CURVE SMOOTH"
 );
 }
 );
@@ -10068,18 +10068,18 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"376 339 OFFCURVE",
-"376 374 OFFCURVE",
-"397 395 CURVE SMOOTH",
-"418 416 OFFCURVE",
-"453 417 OFFCURVE",
-"474 396 CURVE SMOOTH",
-"495 375 OFFCURVE",
-"495 340 OFFCURVE",
-"474 319 CURVE SMOOTH",
-"453 298 OFFCURVE",
-"418 297 OFFCURVE",
-"397 318 CURVE SMOOTH"
+"404 303 OFFCURVE",
+"381 327 OFFCURVE",
+"381 357 CURVE SMOOTH",
+"381 386 OFFCURVE",
+"405 411 OFFCURVE",
+"436 411 CURVE SMOOTH",
+"468 411 OFFCURVE",
+"490 386 OFFCURVE",
+"490 358 CURVE SMOOTH",
+"490 331 OFFCURVE",
+"469 303 OFFCURVE",
+"435 303 CURVE SMOOTH"
 );
 }
 );
